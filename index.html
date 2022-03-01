@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/png" href="/icon.png" />
+    <title>creating first app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <a href="#">
+                <h1 class="sitename">Log in to get started</h1>
+            </a>
+
+            <a href="#" class="logo"><img src="logo.png" alt=""></a>
+            <button class="login">Login</button>
+            <div class="showmodel show">
+                <!-- <div class="close"><img src="./x.png" alt=""></div> -->
+                <button class="close-modal ">&times;</button>
+                <div class="left"></div>
+                <div class="right"></div>
+
+            </div>
+            <form class="box">
+                <input type="text" class="user input-width" placeholder="user">
+                <input type="password" class="pin input-width" maxlength="4" placeholder="PIN">
+                <button class="login_button"><span class="s">&rarr;</span></span></button>
+            </form>
+
+        </div>
+    </nav>
+
+    <div class="balance">
+        <div>
+            <div class="name">current balance</div>
+            <div class="date">20/7/2021</div>
+        </div>
+        <div class="bal">1500 &#8377;</div>
+    </div>
+
+    <main class="app">
+        <div class="movement">
+            <div class="movecon">
+                <div class="diposite">2 Diposite</div>
+                <div class="date">3 days ago</div>
+                <div class="rupees">100&#8377;</div>
+
+            </div>
+            <div class="movecon">
+                <div class="withdrawal">1 Withdrawal</div>
+                <div class="date">21/07/2021</div>
+                <div class="rupees">-100&#8377;</div>
+
+            </div>
+
+        </div>
+        <div class="transection">
+
+            <div class="transfer">
+                <h1>Transfer money</h1>
+                <form>
+                    <input type="text" class="input-width transfer_btn">
+                    <input type="number" class="input-width transfer_btn">
+                    <button class="trf_btn">&rarr;</button>
+
+                </form>
+                <span>Transfer to</span>
+                <span> amount</span>
+            </div>
+            <div class="loan">
+                <h1>Request money</h1>
+                <form>
+
+                    <input type="number" class="input-width request_btn transfer_btn">
+                    <button class="trf_btn">&rarr;</button>
+
+                </form>
+                <span>Amount</span>
+            </div>
+            <div class="close-account">
+                <h1>Close account</h1>
+                <form>
+                    <input type="text" class="input-width close_btn transfer_btn">
+                    <input type="number" class="input-width close_btn transfer_btn">
+                    <button class="trf_btn">&rarr;</button>
+
+                </form>
+                <span>Confirm user</span>
+                <span>Confirm PIN</span>
+            </div>
+
+        </div>
+
+
+
+    </main>
+    <div class="last">
+        <div class="in">IN <div class="in_span">0&#8377;</div>
+        </div>
+        <div class="in">out <div class="in_span">0&#8377;</div>
+        </div>
+        <div class="in">INTREST <div class="in_span">0&#8377;</div>
+        </div>
+        <div class="in">SHORT <div class="in_span">&#8593;</div>
+        </div>
+        <div class="in">you will logout in <div class="in_span time">05:00</div>
+        </div>
+    </div>
+    <div class="footer">
+        <div>made with 🧡 by <a href="https://github.com/saurabh-kud" target="_blank"> saurabh</a></div>
+        <div class="github"><a href="https://github.com/saurabh-kud" target="_blank"><img src="/GitHub-Mark-32px.png"
+                    alt=""></a></div>
+
+    </div>
+    <div class="overlay show"></div>
+</body>
+<script src=" script.js">
+</script>
+
+</html>
